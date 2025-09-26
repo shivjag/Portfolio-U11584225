@@ -1,65 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shivani Jagannatham | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivani Jagannatham - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>👋 Hi, I'm Shivani Jagannatham</h1>
-    <p>M.S. AI & Business Analytics student | Full-Stack Developer | Former Verizon Engineer</p>
-  </header>
+    <div class="scroll-indicator"></div>
+    
+    <div class="container">
+        <header>
+            <div class="profile-img">
+                <img src="profile.jpeg" alt="Shivani Jagannatham">
+            </div>
+            <h1>Shivani Jagannatham</h1>
+            <p class="subtitle">AI & Software Engineer | M.S. in AI & Business Analytics</p>
+            <div class="social-links">
+                <a href="https://github.com/shivjag" target="_blank">GitHub</a>
+                <a href="mailto:shivanijagannatham@gmail.com">Email</a>
+                <a href="https://www.linkedin.com/in/shivani-jagannatham" target="_blank">LinkedIn</a>
+            </div>
+        </header>
 
-  <!-- About Me -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m passionate about building scalable applications, integrating AI into real-world solutions, 
-      and exploring data-driven insights. With professional experience at Verizon and hands-on projects 
-      in full-stack, AI/ML, and system design, I enjoy solving complex problems with modern technologies.
-    </p>
-  </section>
+        <section class="section">
+            <h2>About Me</h2>
+            <p>
+                Welcome to my portfolio! I'm Shivani Jagannatham, a passionate software engineer currently pursuing 
+                my M.S. in Artificial Intelligence and Business Analytics at the University of South Florida. 
+                With over a year of professional experience at Verizon, I specialize in building scalable backend 
+                systems, optimizing performance, and implementing robust CI/CD practices.
+            </p>
+            <p>
+                My expertise spans full-stack development with Java Spring Boot, React, and modern frameworks like 
+                Spring WebFlux. I'm passionate about AI/ML applications, having worked on projects ranging from 
+                fake news detection to OCR-based medicine donation platforms. I believe in writing clean, 
+                well-tested code and am constantly exploring new technologies in AI and software engineering.
+            </p>
+        </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>SpendSmart – Full-Stack Expense Tracker</h3>
-      <p>Built REST APIs with Django and a responsive React frontend for secure expense tracking with JWT authentication.</p>
+        <section class="section">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>SpendSmart - Full-Stack Expense Tracker</h3>
+                    <p>
+                        Built a comprehensive expense tracking application with Django REST APIs and React frontend. 
+                        Features secure JWT-based authentication, expense categorization, and responsive UI components 
+                        for seamless expense management.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/shivanij1203/spendsmart" target="_blank">View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Medicine Donation Platform (Research Project)</h3>
+                    <p>
+                        Designed an end-to-end platform connecting medicine donors with NGOs. Integrated Tesseract OCR 
+                        with preprocessing for automated drug label extraction, achieving ~98% accuracy. Built with 
+                        Django + React and deployed on Firebase.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/shivanij1203/Surplus-Med" target="_blank">View Code</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>PassCheck - Secure Password Tools</h3>
+                    <p>
+                        Created a Java application for generating secure random passwords with customizable parameters 
+                        and validating password strength based on complexity, length, symbols, and character diversity.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/shivanij1203/passcheck" target="_blank">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">R</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Frameworks & Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Spring WebFlux</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>AI/ML & Data Science</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Tesseract OCR</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">JUnit & Mockito</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Databases & Security</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Black Duck</span>
+                        <span class="skill-tag">Fortify</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Get In Touch</h2>
+            <p style="text-align: center; margin-bottom: 2rem;">
+                I'm always interested in new opportunities and collaborations. Feel free to reach out!
+            </p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:shivanijagannatham@gmail.com">shivanijagannatham@gmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <a href="tel:+18133939985">+1 (813) 393-9985</a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/shivani-jagannatham" target="_blank">Connect with me</a>
+                </div>
+
+                <div class="contact-item">
+                    <h3>Location</h3>
+                    <span>Tampa, FL | Open to remote work</span>
+                </div>
+            </div>
+        </section>
     </div>
-    <div class="project">
-      <h3>Fake News Detection</h3>
-      <p>Implemented a text classifier on the LIAR dataset using TF-IDF and SVM with scikit-learn; evaluated with precision, recall, and F1.</p>
-    </div>
-    <div class="project">
-      <h3>PassCheck – Secure Password Generator</h3>
-      <p>Java app for generating strong random passwords with a built-in strength checker ensuring security compliance.</p>
-    </div>
-  </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Languages:</strong> Java, Python, C++, JavaScript, TypeScript, SQL, R, HTML/CSS</li>
-      <li><strong>Frameworks & Tools:</strong> React, Node.js, Spring Boot, Spring WebFlux, Django, OpenAPI/Swagger, JUnit, Mockito, Jenkins, Docker, Git, AWS, Firebase, MySQL, PostgreSQL, REST, Postman, Black Duck, Fortify</li>
-      <li><strong>Libraries:</strong> Scikit-learn, Pandas, NumPy, SciPy, PyTorch, TensorFlow, OpenCV, Matplotlib, Seaborn, Tesseract OCR</li>
-      <li><strong>Environments:</strong> IntelliJ IDEA, Eclipse, VS Code, Google Colab, Jupyter, SuperPuTTY</li>
-    </ul>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:shivanijagannatham@gmail.com">shivanijagannatham@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/shivani-jagannatham" target="_blank">linkedin.com/in/shivani-jagannatham</a></p>
-    <p>GitHub: <a href="https://github.com/shivjag" target="_blank">github.com/shivjag</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Shivani Jagannatham</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Shivani Jagannatham. Built with HTML, CSS, and creativity. Hosted on GitHub Pages.</p>
+    </footer>
 </body>
 </html>
